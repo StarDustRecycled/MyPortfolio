@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles.css" rel="stylesheet">
-    <title>Component Library</title>
+    <title>Welcome | To Arindam's Page</title>
 </head>
 
 <body>
     <!-- <h1>Welcome to Arindam's component library</h1> -->
     <!-- First comes the navigation -->
-    <nav>
-        <div>
+    <nav class="navigation container">
+        <div class="nav-brand">
             <a href="/" class="link">Arindam</a>
         </div>
         <ul class="list-non-bullet  nav-pills">
@@ -30,39 +30,50 @@
     </nav>
     <!-- Then comes the header -->
     <header class="hero">
-        <img class="hero-img" src="/images/rocket_green.svg"/>
-        <h1>Hi there</h1>
+        <img class="hero-img" src="/images/rocket_green.svg" />
+        <h1 class="hero-heading">Hi there it's
+            <span class="heading-inverted">Arindam</span>
+        </h1>
     </header>
     <!-- Then comes section -->
-    <section>
-        <div></div>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, Git, JavaScript, NodeJS, ReactJS, and Web Hosting</p>
+        </div>
     </section>
-    <!-- Another one -->
-        <div class="container container-center">This is a central container</div>
-    <section>
-
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online</p>
+            <a href="/projects.html"class="link link-primary">See Projects</a>
+        </div>
     </section>
-    <!-- Another one -->
-        <div class="continer-fluid">This is a fluid container</div>
-    <section>
-
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+            </p>
+            <a href="/blogs.html"class="link link-secondary">Read Blogs</a>
+        </div>
     </section>
     <!-- Finally a footer -->
-    <footer>
-        <div>
-
+    <footer class="footer">
+        <div class="footer-header">
+            Follow me on!
         </div>
-        <ul>
-            <li>
-                <a href="google.com" class="link secondary-link">Google</a>
+        <ul class="social-links list-non-bullet">
+            <li class="list-item-inline">
+                <a href="google.com" class="link">Google</a>
             </li>
-            <li>
+            <li class="list-item-inline">
                 <a href="" class="link">Discord</a>
             </li>
-            <li>
-                <a href="https://www.github.com" class="link primary-link">Github</a>
+            <li class="list-item-inline">
+                <a href="https://www.github.com" class="link">Github</a>
             </li>
         </ul>
+        <small>Made with <span class="heart"></span> by Arindam</small>
     </footer>
 </body>
 
